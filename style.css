@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body{
+    
+    background:white; 
+    width: 100vw;
+    height: 100vw;
+ 
+
+    
+}
+
+#hero{
+    
+    width: 100vw;
+    height: 100vh;
+    
+    background-image: url('header-background.png');
+    
+    
+}
+.layer{
+    background-color:rgba(240, 161, 13, 0.5);
+    opacity: 0,3;
+    width: 100%;
+    height: 100%; 
+}
+nav{
+   display: flex;
+    
+    flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+}
+nav ul li{
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 8px;;
+    
+    margin: 30px 15px;
+}
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    position: relative;
+    border-radius: 8px;
+
+}
+
+nav ul li:hover{
+   /* padding: 10px 30px;
+    background-color: white;
+    color:black;
+    position: relative;
+    width: auto;*/
+    background-color: white;
+    color: black;
+    transition: .4s;
+    padding: 10px 20px;
+    
+
+}
+nav ul li a:hover{
+    color: black;
+}
+#hero img{
+    width: 200;
+    position:absolute;
+    right: 0;
+    top:0;
+    margin: 200px 200px;
+  border-radius: 50%;
+  border: 9px solid white;
+}
+.intro{
+    margin: 170px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#abt{
+    background-color:rgb(255, 165, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    
+}
+#abt img{
+    width: 44%;
+    
+    height: 75%;
+    margin: 0% 80% 0% 0%;
+    opacity: 0.7;
+
+    position:absolute;
+    left: 0;
+    top:150;
+
+}
+.heror{
+    margin: 55px 0px 25px 550px;
+    right: 0;
+    top:0;
+    font-family: monospace;
+    
+}
+.space{
+    margin-top: 4%;
+    margin-bottom: 20%;
+    padding: auto;
+}
+#skill{
+    background-color:rgb(255, 165, 0, 0.5);
+    margin-top: -52%;
+}
+ #hml{
+    margin-left: 20%;
+
+}
+ #hml h1{
+    
+    margin:25% 50%;
+}
+.lrn-html{
+    position: relative;
+    left: 250px;
+    font-size: 200%;
+    font-family:monospace;
+}
+.grey-box{
+    background-color: grey;
+    
+    margin-left: 20%;
+    margin-right: 20%;
+   width:65%;
+   height: 150%;
+   
+}
+.black-box{
+    background-color:black;
+    opacity: 0.3;
+    margin-right: 30;
+    height: 100%;
+    width: 40%;
+    color: white;
+    text-align: left;
+    padding: 23px;
+   font-size: 25px; 
+}
+.details img{
+    margin: 0% 1% 0% 35%;
+    width: 3%;
+    height: 3%;
+    text-align: center;
+    vertical-align: top;
+    font-size:1500%;
+    
+}
+/*#connect{
+    margin: 0% 1% 0% 35%;
+    width: 3%;
+    height: 3%;
+    text-align: center;
+    vertical-align: top;
+    font-size:1500%;
+}*/
+
+  
+
+  
+    
